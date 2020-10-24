@@ -1,0 +1,97 @@
+header{
+    height: 100vh;
+    width: 1000%;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)), url(imgs/8.jpg) no-repeat center center /cover;
+    box-shadow: 8px 8px 20px 0px white inset, -8px -8px 20px 8px white inset; 
+  }
+
+  
+  .banner{
+    font-family: serif ;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-style: italic;
+  }
+  
+  #aside1{
+    
+    line-height: 1.5;
+   float: right;
+    padding-left:10px;
+    padding-right: 10px;
+    background-color: wheat;
+    border-radius: 10px;
+    margin-right: 10px;
+      
+  }
+  #aside2{
+    line-height: 2;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+     
+     
+     border-radius: 10px;
+     margin-left: 10px;
+  }
+ 
+  #first, #second{
+      margin-left: 10px;
+      font-family: serif;
+      font-size: 20px;
+      margin-top: 10px;
+      margin-left: 10px;
+  }
+  #us, #our{
+      font-family: serif;
+      
+  }
+  #event{
+    margin-top: 10%;
+  }
+  
+  #fname, #lname,#fname-id, #lname-id, #date-id,#date, #time, #time-id,
+  #nb-person, #nb-persons-id, #nb-children-id, #nb-children, #phone, #phone-id, #which-event,#select-event{
+      
+      width: 50%; 
+      padding: 8px; /* Some padding */ 
+     border-radius: 4px; /* Rounded borders */
+      box-sizing: border-box; /* Make sure that padding and width stays in place */
+      margin-top: 6px; /* Add a top margin */
+      margin-bottom: 7px; /* Bottom margin */
+      resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+      
+  }
+  #fname-id, #lname-id, #date-id, #time-id, #nb-persons-id, #nb-children-id, #phone-id,#select-event {
+    background-color: wheat;
+  }
+  #fname, #lname, #date, #time , #nb-person, #nb-children, #phone,#which-event{
+    color: white;
+    font-weight: bold;
+    font-family: serif;
+  }
+  
+ #book{
+  font-family: serif;
+ }
+ #reserve-btn{
+  background-color:lavender;
+  color: black;
+  padding: 12px;
+  margin-bottom: 20px;
+  margin-top: 8px;
+  
+  border-radius: 7px;
+  cursor: pointer;
+  box-sizing: border-box;
+ resize: vertical;
+ font-weight: bold;
+ font-family: serif;
+  
+}
+#reserve-btn:hover{
+  background-color: darkgray;
+}
+  

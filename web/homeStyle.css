@@ -1,0 +1,92 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    height: 100vh;
+    background: url(imgs/background.jpg) no-repeat center center /cover;
+
+}
+
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+}
+
+.banner-heading {
+    animation-name: anim;
+    animation-duration: 2s;
+}
+
+.banner-par {
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes anim {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.nav-menu{
+    background: rgb(34, 41, 106);
+    padding: 15px;
+}
+
+.menu-item{
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #eee;
+    transition: color 0.5s;
+}
+
+.nav-active {
+    color: rgba(255, 166, 0, 0.926);
+}
+
+.menu-item:hover{
+    color: rgba(255, 166, 0, 0.926);
+}
+
+.line1, .line2, .line3 {
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+}
+
+section{
+    
+    height: 100vh;
+    background: url(imgs/aboutus.jpg) no-repeat center center /cover;
+    align-items: center;
+}
+
+.section_title {
+    padding-top: 10px;
+    color: rgb(15, 24, 120);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+section p {
+    font-weight: bold;
+}
+
+#description{
+    margin-top: 10%;
+    font-style: italic;
+    font-size: large;
+}
+
+

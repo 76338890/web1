@@ -1,0 +1,65 @@
+#body{
+  background-color: darkslategray;
+}
+#fname,#lname, #country, #subject {
+  background-color: wheat;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  #submit {
+    background-color: gray;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: serif;
+      font-weight: bold;
+  }
+  #btn1{
+    background-color: gray;
+    border-radius: 6px;
+    padding: 7px 7px;
+    color: white;
+      float: right;
+      text-align: center;
+      cursor: pointer;
+      border: none;
+      font-family: serif;
+      font-weight: bold;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  #submit:hover {
+    background-color: darkgray;
+  }
+  #btn1:hover{
+    background-color: darkgray;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    
+    padding: 20px;
+  }
+  .startup{
+    text-align: center;
+    color: whitesmoke;
+    font-family: serif;
+    font-weight: bold;
+  }
+  #one,#two,#three,#four{
+    color: white;
+    font-family: serif;
+    font-weight: bold;
+  }
